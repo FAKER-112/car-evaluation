@@ -28,7 +28,13 @@ ordinal_mappings = {
 lug_boot_columns = ['lug_boot_big', 'lug_boot_med', 'lug_boot_small']
 
 # Reverse mapping for output
-class_mapping = {0: 'unacc', 1: 'acc', 2: 'good', 3: 'vgood'}
+# Change the values here to what you want to see on the screen
+class_mapping = {
+    0: 'Unacceptable', 
+    1: 'Acceptable', 
+    2: 'Good', 
+    3: 'Very Good'
+}
 
 @app.route('/predict', methods=['POST'])
 def predict():

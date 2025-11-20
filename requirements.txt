@@ -4,3 +4,7 @@ flask
 numpy
 seaborn
 matplotlib
+bentoml
+xgboost
+flask-cors
+streamlit
